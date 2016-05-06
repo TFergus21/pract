@@ -1,0 +1,98 @@
+
+/* CSS Document */
+
+h1
+{
+	text-align:left; 
+	color:red; 
+	font: normal 40pt "Arial Black"
+	
+}
+
+h2
+{
+	text-align:left;
+	color:black;
+	font: normal 40pt "Arial Black";
+	
+}
+
+body
+{
+ background-color: lightblue;
+}
+
+section 
+{
+	background-color: #bfbfbd;
+    width:800px;
+    margin:auto;
+    margin-bottom: 5px;
+    padding:1px;
+    line-height: 30px;	 	 
+}
+
+article
+{
+	line-height:30px;
+	width:800px; 
+	background-color:#bfbfbf; 
+	padding:5px;
+	margin: auto;
+
+}
+
+footer
+{
+background-color: grey;
+border-bottom: 10px #ccc solid;
+margin-top: 1000px;
+}
+
+header
+{
+ background-color: black;
+ color:white; 	
+ text-align:center;  
+ padding:5px;
+}
+
+#login
+{
+	float: right;
+	box-shadow: 1px;
+	margin-top: 200px;
+}
+
+
+#nav{
+width: 60%;
+display: inline-block;
+margin-top:40px;
+}
+#nav ul
+{
+
+}
+		
+#nav ul li
+{
+display: inline-block;
+height: 62px;
+}
+#nav ul li a
+{
+padding: 20px;
+background: orange;
+color: white;
+}
+#nav ul li a:hover
+{
+background-color: #ffb424;
+box-shadow: 0px 1px 1px #666;
+}
+#nav ul li a:active
+{ 
+background-color: #ff8f00; 
+}
+
