@@ -24,23 +24,25 @@ catch(PDOException $e)
        // }
 	   
        //inserts valuses into the table 
-       $ins = "INSERT INTO user ( ID, user, password )
-       VALUES ('', 'k', 'dan3')";
+    $ins = "INSERT INTO 
+    UserName (userName, pass) 
+    VALUES
+   ('mrbool','mrbool123')";
          
      //this runs is the part that executes $ins
        $handler->exec($ins);
      echo "inserted successfully"; 
 	 
     //this creates a new table.
-        //$create = "CREATE TABLE users (
-	    //id INT(5) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-   	   // firstname 	varchar(20) NOT NULL,
-   	   // lastname 	varchar(20) NOT NULL,
-   	   // email 		varchar(30)	NOT NULL)";
+          //$create = "CREATE TABLE UserName(
+	      //UserNameID int(9) NOT NULL auto_increment, 
+		  //userName VARCHAR(40) NOT NULL, 
+		  //pass VARCHAR(40) NOT NULL, 
+		  //PRIMARY KEY(UserNameID) )";
 	
 	//this is the part that excutes it. 
-	  //$handler->exec($create);
-	 // echo "your table has been created";
+	    //$handler->exec($create);
+	    //echo "your table has been created";
 	
 	
 ?>
